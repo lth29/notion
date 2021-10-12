@@ -44,26 +44,26 @@
     weekday[5] = "Friday";
     weekday[6] = "Saturday";
 
-    const monthNames = ["january", "february", "march", "april", "may", "june",
-      "july", "august", "september", "october", "november", "december"
+    const monthNames = ["January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"
     ];
 
     
     var today = new Date();
     var hrs = today.getHours();
     var dayOfWeek = weekday[today.getDay()];
-    var date = `${dayOfWeek} ${monthNames[today.getMonth()]} ${today.getDate()}, ${today.getFullYear()}`;
+    var date = `${dayOfWeek} ${today.getDate()} ${monthNames[today.getMonth()]}, ${today.getFullYear()}`;
 
     var greet;
 
     if (hrs < 12)
-        greet = 'good morning, Laya.  ';
+        greet = 'Good morning, Laya.  ';
     else if (hrs <= 18)
-        greet = 'good afternoon, Laya. ';
+        greet = 'Good afternoon, Laya. ';
     else if (hrs <= 20)
-        greet = 'good evening, Laya.  ';
+        greet = 'Good evening, Laya.  ';
     else
-        greet = 'good night, Laya.  ';
+        greet = 'Good night, Laya.  ';
 
     document.getElementById('lbl').innerHTML = `
         <div class="container">
