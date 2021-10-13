@@ -1,36 +1,36 @@
 var mesos = [
-    'Gener',
-    'Febrer',
-    'Març',
-    'Abril',
-    'Maig',
-    'Juny',
-    'Juliol',
-    'Agost',
-    'Septembre',
-    'Octubre',
-    'Novembre',
-    'Desembre'
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December'
 ];
 
 var dies = [
-    'Diumenge',
-    'Dilluns',
-    'Dimarts',
-    'Dimecres',
-    'Dijous',
-    'Divendres',
-    'Dissabte'
+    'Sunday',
+    'Monday',
+    'Tuesday',
+    'Wednesday',
+    'Thursday',
+    'Friday',
+    'Saturday'
 ];
 
 var dies_abr = [
-    'dg',
-    'dl',
-    'dm',
-    'dc',
-    'dj',
-    'dv',
-    'ds'
+    'sun',
+    'mon',
+    'tue',
+    'wed',
+    'thu',
+    'fri',
+    'sat'
 ];
 
 Number.prototype.pad = function(num) {
