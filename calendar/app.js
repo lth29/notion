@@ -20,7 +20,7 @@ generateCalendar = (month, year) => {
     calendar_days.innerHTML = ''
 
     let currDate = new Date()
-    if (!month) month = currDate.getMonth()
+    if(month == null)
     if (!year) year = currDate.getFullYear()
 
     let curr_month = `${month_names[month]}`
@@ -29,7 +29,7 @@ generateCalendar = (month, year) => {
 
     // get first day of month
     
-    let first_day = new Date(year, month, 1)
+    let first_day = new Date(year, month, 0)
 
     for (let i = 0; i <= days_of_month[month] + first_day.getDay() - 1; i++) {
         let day = document.createElement('div')
