@@ -33,6 +33,7 @@
     justify-content: space-between;
     text-transform: uppercase;
     margin-bottom: 30px;
+    background-color: #FBF3DB;
 }
 
 .calendar .control {
