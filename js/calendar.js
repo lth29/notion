@@ -87,7 +87,7 @@ class Calendar {
                 </span>
             `;
         }
-        this.elMonthName.innerHTML = this.currentMonth.format('MMM YYYY');
+        this.elMonthName.innerHTML = this.currentMonth.format('MMMM YYYY');
         this.elGridBody.innerHTML = templateCells;
         this.addEventListenerToCells();
     }
