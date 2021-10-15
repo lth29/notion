@@ -28,7 +28,7 @@
 }
 
 .calendar__header {
-    color: black;
+    color: #ffffff;
     display: flex;
     justify-content: space-between;
     text-transform: uppercase;
