@@ -28,12 +28,11 @@
 }
 
 .calendar__header {
-    color: #ffffff;
     display: flex;
     justify-content: space-between;
     text-transform: uppercase;
     margin-bottom: 30px;
-    background-color: #FBF3DB;
+    background-color: var(--color-bg-calendar);
 }
 
 .calendar .control {
