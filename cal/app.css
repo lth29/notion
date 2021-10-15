@@ -40,7 +40,7 @@ html,
 body {
     height: 0vh;
     display: grid;
-    place-items: left;
+    place-items: center;
     font-family: var(--font-family);
     background-color: var(--bg-body);
 }
@@ -53,7 +53,7 @@ body {
     padding: 20px;
     position: absolute;
     overflow: hidden;
-    transform: scale(0.1);
+    transform: scale(0.3);
 }
 
 .light .calendar {
