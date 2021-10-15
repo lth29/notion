@@ -95,7 +95,6 @@ html {
 }
 
 .days div:hover:not(.today) {
-  background-color: #FBF3DB;
   color: #ffffff;
   border: 0.2rem solid #777;
   cursor: pointer;
