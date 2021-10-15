@@ -62,7 +62,7 @@ html,
 body {
     height: 30vh;
     display: grid;
-    place-items: center;
+    place-items: left;
     font-family: var(--font-family);
     background-color: var(--bg-body);
 }
