@@ -52,9 +52,9 @@ body {
     background-color: var(--bg-main);
     border-radius: 30px;
     /*padding: 20px;*/
-    position: relative;
+    position: static;
     overflow: hidden;
-    transform: scale(0.9);
+    /*transform: scale(1);*/
 }
 
 .light .calendar {
