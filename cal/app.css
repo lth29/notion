@@ -51,7 +51,7 @@ body {
     background-color: var(--bg-main);
     border-radius: 30px;
     /* padding: 20px; */
-    position: absolute;
+    /* position: absolute; */
     overflow: hidden;
     transform: scale(0.3);
 }
