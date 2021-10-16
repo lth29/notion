@@ -53,7 +53,7 @@ body {
     /* padding: 20px; */
     position: absolute;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(0.3);
 }
 
 .light .calendar {
