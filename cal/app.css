@@ -50,7 +50,7 @@ body {
     width: max-content;
     background-color: var(--bg-main);
     border-radius: 30px;
-    padding: 20px;
+    /* padding: 20px; */
     position: absolute;
     overflow: hidden;
     transform: scale(0.8);
