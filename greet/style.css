@@ -18,7 +18,7 @@ button::-moz-focus-inner {
 }
 
 #calendari {
-    margin: 20px 0;
+    /*margin: 20px 0;*/
     position: relative;
     overflow: hidden;
     height: 310px;
